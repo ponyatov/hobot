@@ -1,7 +1,7 @@
 
 MODULE ?= $(notdir $(CURDIR))
 
-TEX = $(MODULE).tex header.tex
+TEX = $(MODULE).tex header.tex title.tex
 
 LATEX = pdflatex
 
